@@ -6,7 +6,8 @@ Instalacion y configuracion de ELK en Docker para Docker logs
 Extraido de: https://appfleet.com/blog/docker-centralized-logging-with-elk-stack/
 
 Para que ande:
-    - Levantar el Docerfile del directorio base
+    - Ejecutar docker build -t filebeatimage . en el directorio base
+    - Levantar la imagen filebeatimage // docker run filebeatimage
     - Levantar docker-compose del directorio docker_elk
     - Dirigirse a http://localhost:5061 en un navegador
     - Gozarlo
